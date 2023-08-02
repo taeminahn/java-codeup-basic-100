@@ -10,6 +10,7 @@ public class Basic86 {
         float oneKb = 1024;
 
         double total = h * b * c;
+        System.out.println("");
         System.out.println(Math.round((total/8)/oneKb/oneKb * 100) / 100.0 + " MB");
     }
 }
